@@ -1,3 +1,4 @@
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -18,3 +19,10 @@ int searchInsert(vector<int>& arr, int x){
      }
      return ans;
  }
+int main(){
+     vector<int> arr = {1,2,4,7};
+int x =6;
+int ind = searchInsert(arr, x);
+cout << "the index is : " << ind << "\n";
+return 0;
+}
